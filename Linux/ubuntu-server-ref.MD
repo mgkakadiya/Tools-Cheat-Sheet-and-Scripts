@@ -64,6 +64,20 @@ openssl rsa -in server.key -out server_new.key
 openssl pkcs8 -topk8 -nocrypt -in privkey.pem
 ```
 
+##### convert ppk to pem file
+
+```
+puttygen your-key.ppk -O private-openssh -o new-key.pem
+```
+
+Ref: https://tecadmin.net/convert-ppk-to-pem-using-command/
+
+##### Remove password of pem
+
+```
+openssl rsa -in key-with-password.pem -out key-without-password.pem
+```
+
 #### list all users
 
 ``` 
