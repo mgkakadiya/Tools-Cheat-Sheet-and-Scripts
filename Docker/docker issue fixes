@@ -1,2 +1,5 @@
 ## Docker Installation Error: Virtualization Not Enabled
 https://itsppaul2016.medium.com/docker-installation-error-virtualization-not-enabled-212dbba04e37
+
+## Solved: Docker desktop requires a newer WSL kernel version on Windows
+https://medium.com/@dilsharahasanka/solved-docker-desktop-requires-a-newer-wsl-kernel-version-on-windows-b093b1684c0b
